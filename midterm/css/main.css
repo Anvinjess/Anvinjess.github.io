@@ -1,0 +1,63 @@
+html{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #aad4cf;
+}
+/* add image and adujust the height*/
+header{
+    background-image: url(../images/starfishwide.jpg)
+    ;
+    height: 350px;
+    
+    
+}
+/* arranged in unfiformly space*/
+nav ul li  {
+    border-right: 1px solid black;
+    display: inline-block;
+    width: 300px;
+}
+nav ul li a{
+    color: black;
+}
+/* correcting the spacing*/
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* center align text*/
+h1 {
+    text-align: center;
+    
+    
+}
+
+/* given color and position */
+.wrapper{
+    margin: auto;
+    position: relative;
+    background-color: rgb(203, 238, 238);
+}
+.content{
+    position: relative;
+}
+/* adujusting the image size*/
+img{
+    width: 200px;
+    float: left;
+    margin: auto;
+}
+/* form-text box lenght*/
+#yourname,#email{
+    width: 1050px;
+}
+#message{
+    width:1050px;
+    height:100px;
+}
+/*copyright*/
+#footer{
+    float: right;
+}
